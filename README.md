@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛒 Supermarket Insights — RAG App with Gemini + Next.js
 
-## Getting Started
+This project is a **Retrieval-Augmented Generation (RAG)** system built with **Next.js**, **PostgreSQL**, and **Gemini (Google GenAI)**. It allows users to ask natural language questions about supermarket sales and get accurate answers using LLM-generated SQL queries.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📸 Screenshot — Version 1
+![Version 1](https://github.com/user-attachments/assets/2ef8215b-6073-4846-8d5a-a2044b1d8ebd)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- 🔎 **Natural Language to SQL**: Ask questions like "Top 5 items sold in March?" and get real results.
+- 🧠 **Gemini 2.0 Flash**: Generates SQL queries and natural language summaries.
+- 📊 **PostgreSQL-backed**: Fully connected relational database for 3 months of supermarket data.
+- ⚡ **Fast & Token-Efficient**: Only minimal prompt tokens sent to Gemini for fast response.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 🧪 **Next.js**
+- 🎨 **TailwindCSS**
+- 💬 **Gemini 2.0 Flash API**
+- 🐘 **PostgreSQL** (with a 3-month dummy dataset)
+- 💻 **TypeScript**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
